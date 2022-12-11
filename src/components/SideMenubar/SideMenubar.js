@@ -21,21 +21,21 @@ const SideMenubar = () => {
                 <Link to="/home">
                   <li id="menu__active">Home</li>
                 </Link>
-                <Link to="/about-me">
+                {/* <Link to="/about-me">
                   <li>About Me</li>
-                </Link>
-                <Link to="vision">
+                </Link> */}
+                {/* <Link to="vision">
                   <li>What I Do</li>
-                </Link>
-                <Link to="resume">
+                </Link> */}
+                {/* <Link to="resume">
                   <li>Resume</li>
-                </Link>
-                <Link to="my-details">
+                </Link> */}
+                {/* <Link to="my-details">
                   <li>Portfolio</li>
-                </Link>
-                <Link to="/testimonial">
+                </Link> */}
+                {/* <Link to="/testimonial">
                   <li>Testimonial</li>
-                </Link>
+                </Link> */}
                 <Link to="contact">
                   <li>Contact</li>
                 </Link>
