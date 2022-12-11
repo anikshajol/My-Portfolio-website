@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+img {
+  max-width: 100%;
+}
+
+/*<------****------> */
+
+/* nav are start */
+#navbar {
+  grid-column: 1 span 2;
+}
+
+.side-menubar {
+  grid-row: auto;
+  height: 100vh;
+  width: 20rem;
+  overflow-y: scroll;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem 10rem 2rem;
+  position: fixed;
+  text-align: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  border: 5px solid gray;
+}
+
+.user-name {
+  font-size: 2rem;
+}
+.menu__list {
+  list-style: none;
+  padding: 0.5rem;
+}
+.menu__list a {
+  text-decoration: none;
+  color: white;
+}
+.menu__list li {
+  padding: 0.8rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#menu__active {
+  color: #008000a7;
+}
+
+.menu__list :hover {
+  color: #008000a7;
+}
+
+.icon {
+  padding: 0.8rem;
+}
+
+.social-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Nav style end */
+
+main {
+  grid-column: 3 /-1;
+  grid-row: auto;
+  background-color: brown;
+  /* padding: 20rem; */
+  padding: 5rem;
+}
+
+footer {
+  grid-column: 1/-1;
+  background-color: burlywood;
+  padding: 5rem;
+}
