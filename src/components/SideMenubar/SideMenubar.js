@@ -4,7 +4,7 @@ import "./SideMenubar.css";
 
 const SideMenubar = () => {
   return (
-    <div className="">
+    <div className="mb-16">
       <section className="container">
         <nav id="navbar">
           <section className="side-menubar">
@@ -12,7 +12,7 @@ const SideMenubar = () => {
               <img
                 src="https://i.ibb.co/z81rdBj/FB-IMG-1575364926110-removebg-preview.png"
                 alt="UserImage"
-                className="user-image"
+                className="user-image dp-img"
               />
               <h2 className="user-name">Anik Hasan</h2>
             </div>
@@ -21,9 +21,9 @@ const SideMenubar = () => {
                 <Link to="/home">
                   <li id="menu__active">Home</li>
                 </Link>
-                {/* <Link to="/about-me">
-                  <li>About Me</li>
-                </Link> */}
+                <Link to="/blog">
+                  <li>Blog</li>
+                </Link>
                 {/* <Link to="vision">
                   <li>What I Do</li>
                 </Link> */}
